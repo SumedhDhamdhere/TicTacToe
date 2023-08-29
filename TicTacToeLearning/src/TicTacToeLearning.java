@@ -36,9 +36,7 @@ public class TicTacToeLearning {
 	private int i=0;
 	
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
