@@ -52,9 +52,7 @@ public class TicTacToeLearning {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public TicTacToeLearning() {
 		initialize();
 	}
@@ -62,7 +60,7 @@ public class TicTacToeLearning {
 	
 	private void winningGame()
 	{
-	//For Player X Only//
+	
 		if(b1==1 && b2==1 && b3==1)
 		{
 			JOptionPane.showMessageDialog(frame, "Player X Wins","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
@@ -111,7 +109,7 @@ public class TicTacToeLearning {
 			xCount1++;
 			xCount.setText(String.valueOf(xCount1));
 		}
-		// For Player O Only//
+		
 		
 		
 		
@@ -195,9 +193,7 @@ public class TicTacToeLearning {
 	}
 	
 	
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 600, 400);
